@@ -49,6 +49,7 @@ android_app_import {
 	name: "MotoDolbyDax3",
 	owner: "motorola",
 	apk: "proprietary/system/app/MotoDolbyDax3/MotoDolbyDax3.apk",
+	overrides: ["MusicFX"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
